@@ -3,5 +3,5 @@
 fname="Mike"
 lname="Cato"
 age=23
-
-echo "$fname $lname is now $age"
+friends=( "Mike" "Sam" "Duke")
+echo "$fname $lname is now $age and has friends ${friends[*]}"
