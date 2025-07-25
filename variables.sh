@@ -1,14 +1,13 @@
 #!/bin/bash
-
 # variables
 name="dexter"
 is_adult=true
 
 echo "$name and is adult $is_adult"
 
-fname="Mike"
-lname="Cato"
-age=23
+fname="ghost"
+lname="vacaro"
+age=76
 echo "$fname $lname is now $age"
 
 # Command Substitution (Runs command in subshell)
@@ -27,3 +26,4 @@ summary="chilling"
 destination="USA"
 role="devops"
 echo "$name favorite language is $favorite_language and current age is $age in short he is $summary and his destination is $destination which is a $role engineer"
+
