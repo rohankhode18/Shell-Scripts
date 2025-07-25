@@ -24,4 +24,6 @@ name="Samuel"
 age=32
 favorite_language="python"
 summary="chilling"
-echo "$name favorite language is $favorite_language and current age is $age in short he is $summary"
+destination="USA"
+role="devops"
+echo "$name favorite language is $favorite_language and current age is $age in short he is $summary and his destination is $destination which is a $role engineer"
