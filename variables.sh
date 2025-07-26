@@ -1,5 +1,6 @@
 #!/bin/bash
 # variables
+
 name="dexter"
 is_adult=true
 
@@ -27,3 +28,8 @@ destination="USA"
 role="devops"
 echo "$name favorite language is $favorite_language and current age is $age in short he is $summary and his destination is $destination which is a $role engineer"
 
+
+
+hostname=$(hostname)
+kernel=$(uname)
+echo "Hostname is $hostname and kernel is $kernel"
