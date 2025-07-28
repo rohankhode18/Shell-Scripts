@@ -37,3 +37,48 @@ comment
 echo "Name of user is $1"
 shift
 echo "bio is $@"
+
+
+
+
+
+
+
+
+
+
+
+
+choice=2
+for num in 1 2 3 4 5 6 7 8
+do
+        if [[ $num -eq $choice ]]
+        then
+                echo "Continue"
+                #break
+                continue
+        fi
+        echo $num
+done
+
+
+for n in 1 2 3 4 5 6 7 8
+do
+        num=$(($n%2))
+        if [[ $num -ne 0 ]]
+        then
+                #echo "Odd $n"
+                continue
+        fi
+        echo "Even number is $n "
+
+done
+
+
+# If no arguments passed exit the script
+if [[ $@ -eq 0 ]]
+then
+        echo "No arguments Exit"
+        exit
+fi
+
