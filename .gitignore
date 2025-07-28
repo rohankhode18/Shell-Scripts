@@ -2,3 +2,5 @@ test.sh
 *.log
 *.txt
 *.csv
+backup
+backup/*
